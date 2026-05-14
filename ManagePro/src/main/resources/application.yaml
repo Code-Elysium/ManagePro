@@ -1,3 +1,15 @@
 spring:
   application:
     name: ManagePro
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/managepro?useTimezone=true&serverTimezone=America/Sao_Paulo
+    username: root
+    password: ${SENHA_BD_BOOKSTORE}
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+    show-sql: false
+    open-in-view: false
