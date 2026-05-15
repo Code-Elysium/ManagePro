@@ -38,3 +38,4 @@ O acompanhamento das tarefas, sprints e progresso do projeto Foram feitos atrav√
 - IntelliJ IDEA (IDE)
 - Postman (Testes de API)
 - HeidiSQL (Gerenciamento do banco de dados)
+- 
